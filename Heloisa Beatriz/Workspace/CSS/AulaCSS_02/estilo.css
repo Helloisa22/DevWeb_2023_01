@@ -1,0 +1,17 @@
+body{
+    font-size: 1.3rem;
+    background-color: #e8cc96;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+h1{
+    background-color: #6e290b;
+    text-align: center;
+    text-shadow: 3px 3px 3px #e8cc96;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}

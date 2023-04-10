@@ -1,0 +1,21 @@
+@charset "UTF8";
+
+*{
+    background-color: antiquewhite;
+    font-family: "Alkatra", cursive;
+    font-size: 2em;
+ }
+
+.corDeFundo{
+    background-color: aqua;
+}
+
+.CorDiferente{
+    background-color: purple;
+}
+
+#pipoca p{
+    font-family: monospace;
+    color: chartreuse;
+}
+

@@ -1,0 +1,6 @@
+dentro do seu arquivo HTML crie uma 
+tag div e dentro dela crie 7 section, 
+dentro de cada section crie um titulo 
+h3 e uma imagem coloque imagens sobre 
+seus desenhos e animes favoritos e o 
+nome de cada um, selecione apenas 

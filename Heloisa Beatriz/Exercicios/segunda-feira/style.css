@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family: "Alkatra", cursive;
+}
+
+.classePai{
+    border: 2px solid #000;
+    height: 400px;
+}
+
+#firstImagem{
+    float: left;
+}
+
+#secondImagem{
+    float: right;
+}

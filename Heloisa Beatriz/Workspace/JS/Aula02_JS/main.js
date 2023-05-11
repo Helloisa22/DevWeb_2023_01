@@ -79,7 +79,7 @@ console.log(compara2) //true
 console.clear()
 
 var variavel3 = 3 // númerico
-var variavel4 = 3 // String = texto
+var variavel4 = "3" // String = texto
 var comparaTudo = variavel3 <= variavel4 != variavel3 > variavel4 
                     // true diferente // false
 console.log(!comparaTudo)

@@ -1,29 +1,29 @@
-const array1 = ["HTML", 1993, "CSS", 1996, "Bootstrap", 2011, "JS", 1995, "React", 2013, "Java", 1995];
+var abraao = true // boolean
 
-console.log(array1);
-console.log(array1.length);
-console.log(array1[6])
-console.log(array1.toString());
-console.log(array1.join('/'));
+var grimaldo = [true, 171, "Gabriel", 3.14]
+//               0     1      2         3
+console.log(abraao)
+console.log(grimaldo)
+console.log(grimaldo[2])
+console.log(grimaldo[1])
+// boolean 
+// numerico 
+// string 
+// numero ponto flutuante
 
 console.clear()
-console.log(array1.unshift('IOS'));
-console.log(array1);
-
-
-console.clear()
-
-const array2 = [
-    ["HTML", 1993, "CSS", 1996],
-    ["Bootstrap", 2011, "JS", 1995],
-    ["React", 2013, "Java", 1995]
+const turma = [
+    ["turma 1", "Gabriel", 7],//0
+    ["Turma 1", "Carina", 10],//1
+    // 0           1       2
+    ["Turma 1", "Felipe", 9]//2
 ]
+console.log(turma)
+turma[1][1] = "Jhonattan";
+console.log(turma)
 
-console.log(array2)
-console.log(array2.length)
-console.log(array2[2][1])
-var arra3 = array2[1][2] = 'JavaScript'
-console.log(array2)
-delete array2[2][2];
+console.clear()
 
-console.log(array2)
+const array1 = ["Maçã", "Kiwi", "Pera", "Tomate"]
+//                 0       1      2         3 
+console.log(array1.toString())

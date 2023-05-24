@@ -4,4 +4,8 @@ function sorteioDaVida() {
 
     console.log("Número sorteado: " + numerosDoDestino);
 }
-sorteioDaVida();
+
+
+let heading = document.createElement('input');
+heading.innerHTML = sorteioDaVida();;
+

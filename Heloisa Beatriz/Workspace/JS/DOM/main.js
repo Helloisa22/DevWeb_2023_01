@@ -26,3 +26,17 @@ if(nomeUsuario === 'Marcos'){
     heading.innerHTML = 'Olá Novo Uusuario!';
     document.body.appendChild(heading);
 }
+
+
+let teste = document.createElement('H1');
+teste.innerHTML = 'Olá Novo Uusuario 2!';
+
+let teste2 = document.createElement('h1');
+teste2.innerHTML = 'Olá Novo mano!';
+document.body.appendChild(teste,teste2);
+document.body.appendChild(teste2);
+
+
+
+
+// Utilizando boas praticas do Dom.. Crie no Javascript uma tag h1 com o texto "cadastro de usuario" insira essa tag no html utilizando o DOM. troque o nome do title para "cadastro empresa Macron"

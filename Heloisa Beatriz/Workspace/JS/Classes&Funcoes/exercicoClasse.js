@@ -4,15 +4,14 @@ class Pessoa{
         this.dataNascimento = new Date(dataNascimento);
     }
 
-    getIdade(idadeCarro){ // 25/05/2023
-        idadeCarro = new Date();
-        return idadeCarro.getFullYear() - this.dataNascimento.getFullYear();
+    getIdade(anoAtual){ // 25/05/2023
+        anoAtual = new Date();
+        return anoAtual.getFullYear() - this.dataNascimento.getFullYear();
     }
 }
 
-
 let pessoas = [
-    new Pessoa("Joao",    '1977-02-13'), // 0
+    new Pessoa("Joao",    '1977-02-13'), // 0 // Intancia o Objeto
     new Pessoa("Pedro",   '1998-05-31'), // 1
     new Pessoa("Maira",   '1978-03-13'), // 2
     new Pessoa("Rafa",    '1978-11-18'), // 3
@@ -35,12 +34,9 @@ Pessoa.prototype.getNome = function() {
 
 for(var i = 0; i < pessoas.length; i++){
     let mesAtual = new Date().getMonth() + 1;
-    var diaCorrente = new Date().getDate() + 1;
+    // var diaCorrente = new Date().getDate() + 1;
 
     if(mesAtual < pessoas[i].getNiver()){
         console.log(`${pessoas[i].getNome()} tem ${pessoas[i].getIdade()} anos e já/ainda não fez aniversário esse ano`) 
     }
 }
-
-
-// console.log(pessoas[i].getNiver());

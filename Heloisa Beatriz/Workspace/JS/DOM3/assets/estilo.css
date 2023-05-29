@@ -1,0 +1,22 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    border: solid 1px #000000;
+    grid-template-columns: 20%;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+#button{
+    background-color: aquamarine;
+}
+
+#blankSpace{
+    display: flex;
+    justify-content: center;
+}

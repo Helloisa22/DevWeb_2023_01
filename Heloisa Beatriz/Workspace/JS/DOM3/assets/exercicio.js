@@ -7,6 +7,9 @@ const Calculate = () => {
     for(i = 0; i <= 10; i++){
         multiplicationTable.innerHTML += `<br> ${guardaValue} x ${[i]}  = ${guardaValue * [i]} <br>`
     }
+    for(i = 0; i <= 10; i++){
+        multiplicationTable.innerHTML += `<br> ${guardaValue} x ${[i]}  = ${guardaValue * [i]} <br>`
+    }
 
     console.log(guardaValue)
 }
